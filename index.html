@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Shop Login</title>
+  <!-- Link to your CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Optional: Link to Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" />
+</head>
+<body>
+  <div class="login-container">
+    <h1 class="title">Mini <span>Shop</span></h1>
+
+    <h2 class="subtitle">Login Account</h2>
+    <p class="welcome">Welcome back, Rohit Thakur!</p>
+
+    <form id="loginForm">
+      <div class="input-field">
+        <label for="email">Enter email i’d</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="input-field">
+        <label for="password">Enter password</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <div class="forgot-link">
+        <a href="#">Forgot Password?</a>
+      </div>
+
+      <button type="submit" class="login-button">Login</button>
+
+      <div class="or-sign-up">
+        <span>Or sign up with</span>
+      </div>
+      <div class="social-login">
+        <button class="social-button">Google</button>
+        <button class="social-button">Facebook</button>
+        <button class="social-button">Apple</button>
+      </div>
+
+      <p class="not-registered">
+        Not registered yet? <a href="#">Create Account</a>
+      </p>
+    </form>
+  </div>
+
+  <!-- Optional: link to a JS file for form handling -->
+  <script src="script.js"></script>
+</body>
+</html>
