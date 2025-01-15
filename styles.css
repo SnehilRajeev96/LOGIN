@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; /* match your Figma or chosen font */
+  background: #fff;
+}
+
+.login-container {
+  max-width: 360px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.title span {
+  color: #ffcc00; /* example color to match "Shop" */
+}
+
+.subtitle {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.welcome {
+  color: #777;
+}
+
+form {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.forgot-link {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.forgot-link a {
+  text-decoration: none;
+  color: #000; /* adjust to match your design */
+  font-size: 14px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #fbc000; /* match your Figma button color */
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+}
+
+.or-sign-up {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  position: relative;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.social-button {
+  background-color: #eee; /* placeholder color */
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.not-registered {
+  text-align: center;
+  font-size: 14px;
+}
+.not-registered a {
+  text-decoration: none;
+  color: #fbc000; /* highlight color for 'Create Account' */
+}
